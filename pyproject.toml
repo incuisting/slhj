@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "shenglyunwords"
+version = "0.1.0"
+description = ""
+authors = ["徐焱挺 <xuyantiong@lidig.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-docx = "^0.8.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
